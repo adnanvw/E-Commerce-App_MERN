@@ -1,0 +1,234 @@
+.cart-page {
+  margin-top: 64px;
+}
+
+.cart-page h1 {
+  padding: 15px !important;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  background-color: rgba(0, 0, 255, 0.072) !important;
+}
+.cart-page h1 > p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cart-page .card {
+  padding: 5px !important;
+  height: 150px !important;
+  margin-bottom: 5px !important;
+}
+.cart-page .cart-remove-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-page .cart-summary {
+  text-align: center;
+  /* margin-top: -140px !important; */
+}
+
+.cartPageParentDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cartpageProducts {
+  display: flex;
+  width: 60%;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%; 
+}
+
+.cartpageamount {
+  width: 30%;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  height: 100%;
+}
+
+.cartProductDiv {
+  display: flex;
+  padding: 10px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.c {
+  width: 100%;
+}
+.cartImageDiv {
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  border: 2px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.cartImage {
+  max-width: 100%;
+}
+
+.cartProductDetailDiv {
+  margin: 8px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cartProductName,
+.cartProductDescription,
+.cartProductPrice {
+  margin-bottom: 0px;
+}
+
+.cartProductName {
+  font-size: 16px;
+  color: #212121;
+  line-height: 1;
+  display: inline;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.cartProductDescription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  color: #878787;
+  font-size: 14px;
+  height: 20px;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.cartProductPrice {
+  margin-top: 8px;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #212121;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.cartRemoveButton {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.cartRemoveButton button {
+  background-color: #e53935;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cartRemoveButton button:hover {
+  background-color: #c62828;
+}
+
+.cartRemoveButton button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(229, 57, 53, 0.5);
+}
+
+.cartRemoveButton button:active {
+  background-color: #b71c1c;
+}
+
+.cartrightHeading {
+  border-bottom: 1px solid #9189896b;
+  font-size:20px;
+  display: block;
+  text-transform: uppercase;
+  padding: 9px 8px;
+  font-weight: var(--font-medium);
+  color: #918989;
+  min-height: 47px;
+  border-radius: 2px 2px 0 0; 
+  font-family: Roboto,Arial,sans-serif;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+.cartpageInfoDiv{
+  padding: 10px;
+}
+
+.cartpriceDiv{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 5px;
+}
+
+.cartpriceDiv span {
+
+font-size: 16px;
+font-family: Roboto,Arial,sans-serif;
+letter-spacing: 0;
+color: #212121;
+line-height: 1.4;
+
+}
+
+
+.totalamount{
+  font: bolder;
+  font-weight: 500;
+font-size: 18px;
+font-family: Roboto,Arial,sans-serif;
+letter-spacing: 0;
+color: #212121;
+line-height: 1.4; 
+}
+
+.addressParentDiv{
+  padding: 10px;
+}
+
+.addressParentDiv h4 { 
+  font-size:20px;
+  display: block;  
+  color: #918989;  
+  font-family: Roboto,Arial,sans-serif;
+  letter-spacing: 0;
+  margin-bottom: 0px;
+}
+
+.addressParentDiv h5 {
+  margin-top: 5px;
+display: block;
+	line-height: 1.5;
+  font-family: Roboto,Arial,sans-serif;
+letter-spacing: 0;
+font-size: 14px;
+color: #212121;
+} 
+
+.updateadressButton{
+  width: -moz-available;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.paymentParentDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
+.braintree-placeholder{
+  
+}
